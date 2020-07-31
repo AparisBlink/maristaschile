@@ -65,7 +65,7 @@
     }
     .header.default:after {
     content: "";
-    background: url(images/Logo_Actualidad_2000.png);
+    background: url(images/logo_maristas_chile.png);
     padding: 64px;
     background-size: contain;
     background-repeat: repeat-x;
@@ -129,7 +129,7 @@
     .content_type_clase_maristaschile #actividad .content .header:after {
         content: "";
         padding: 71px;
-        background-image: url(images/Logo_Actualidad_2000.png);
+        background-image: url(images/logo_maristas_chile.png);
         position: absolute;
         top: 24px;
         background-size: contain;
@@ -403,18 +403,14 @@
     -moz-box-shadow: none;
     box-shadow: none;
     font-family: 'Work Sans', sans-serif;
-    color: #009DB2;
     border: 0;
     -webkit-text-shadow: none;
     -moz-text-shadow: none;
     text-shadow: none;
-    font-weight: 700;
-    font-size: 25px;
     padding: 0;
-    background: #ffffff;
-    display: inline;
-    z-index: 1;
-    letter-spacing: 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: #bc4d59;
     }
 
     /*TÍTULO 2*/
@@ -664,35 +660,61 @@
     /*CAJAS*/
     .bck-box {
     margin: 0px;
-    border: 3px solid;
-    border-color: #960F26;
+    border: 0;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
     background: #fff;
     padding: 0px;
-    -moz-box-shadow: 3px 4px 9px #0000002e;
-    -webkit-box-shadow: 3px 4px 9px #0000002e;
-    box-shadow: 3px 4px 9px #0000002e;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
     }
 
     .bck-box .bck-content p:last-child {
     margin-bottom: 0;
     }
-
+    /*Caja 1*/
+    .bck-box.bck-box1 {
+        border-left: 5px dotted #BC4D59;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+        position: relative;
+        padding-left: 25px;
+        margin: 35px 0px;
+    }
+    .bck-box.bck-box1:before {
+        content: "";
+        background: #BC4D59;
+        border-radius: 100%;
+        position: absolute;
+        top: -23px;
+        height: 20px;
+        width: 20px;
+        left: -13px;
+    }
+    .bck-box.bck-box1:after {
+        content: "";
+        background: #BC4D59;
+        border-radius: 100%;
+        position: absolute;
+        bottom: -23px;
+        height: 20px;
+        width: 20px;
+        left: -13px;
+    }
+    .bck-box1 .bck-title {
+    background: none;
+    }
     .bck-box1 .bck-content {
     padding: 6px;
     }
 
-    .bck-box1 .bck-title {
-    background: #960F26;
-    color: white;
-    padding: 6px 6px;
-    }
 
     /* Caja 2 */
     .bck-box2 .bck-title {
-    color: #960f26;
+    color: #BC4D59;
     font-weight: 700;
     }
     .bck-box.bck-box2 {
@@ -701,12 +723,11 @@
     box-shadow: none;
     padding: 6px 15px;
     text-align: center;
-    background: #960f261c;
-    border: 2px solid;
-    border-color: #960f26 ;
+    background: #F6EDED;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
+    border: 0;
     }
 
     /* Caja 3 */
@@ -759,8 +780,14 @@
     .bck-enfasis-2 {
     color: #6F2670;
     }
+    /*Enfasis 3 - Número circular*/
     .bck-enfasis-3 {
-    color: #00944F;
+        background: #BC4D59;
+        padding: 2px 12px;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        border-radius: 100%;
+        color: white;
     }
     .bck-enfasis-4 {
     color: #00A2E3;
