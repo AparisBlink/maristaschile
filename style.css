@@ -468,6 +468,7 @@
     line-height: inherit;
     }
 
+    /*Lista 123 roja*/
     .content .bck-ol1 li,
     .cke_contents .bck-ol1 li {
     font-weight: 700;
@@ -480,7 +481,7 @@
     content: counter(bck-li-counter)".";
     width: 30px;
     height: 24px;
-    color: #960F26;
+    color: #BC4D59;
     text-align: center;
     background: none;
     -moz-box-shadow: none;
@@ -496,12 +497,12 @@
     vertical-align: bottom;
     }
 
-    /*LISTA ORDENADA 2*/
+    /*LISTA abc roja*/
 
     .content .bck-ol2 li:before,
     .cke_contents .bck-ol2 li:before {
     content: counter(bck-li-counter, lower-alpha)".";
-    color: #005592;
+    color: #BC4D59;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -513,46 +514,38 @@
     text-align: right;
     background: none;
     }
+    /*Lista 123 azul*/
+    .content .bck-ol2 li,
+    .cke_contents .bck-ol2 li {
+    font-weight: 700;
+    }
 
-    /*Lista ordenada verde*/
+    .content .bck-ol2 li:before,
+    .cke_contents .bck-ol2 li:before {
+    content: counter(bck-li-counter)".";
+    width: 30px;
+    height: 24px;
+    color: #126AAC;
+    text-align: center;
+    background: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+    font-size: 22px;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    margin-left: -26px;
+    margin-right: 3px;
+    vertical-align: bottom;
+    }
+
+    /*LISTA abc roja*/
     .content .bck-ol3 li:before,
     .cke_contents .bck-ol3 li:before {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    color: #00944F;
-    font-size: 22px;
-    font-weight: 700;
-    position: relative;
-    }
-    .content .bck-ol3 li,
-    .cke_contents .bck-ol3 li {
-    font-weight: 700;
-    }
-
-    /*Lista ordenada rosa*/
-    .content .bck-ol4 li:before,
-    .cke_contents .bck-ol4 li:before {
-    content: counter(bck-li-counter)".";
-    background: none;
-    font-size: 22px;
-    color: #DC176F;
-    position: relative;
-    width: 30px;
-    height: 24px;
-    text-align: center;
-    font-weight: 700;
-    }
-    .content .bck-ol4 li,
-    .cke_contents .bck-ol4 li {
-    font-weight: 700;
-    }
-
-    /*Lista abc azul claro*/
-    .content .bck-ol5 li:before,
-    .cke_contents .bck-ol5 li:before {
     content: counter(bck-li-counter, lower-alpha)".";
-    color: #00A2E3;
+    color: #BC4D59;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -562,31 +555,14 @@
     vertical-align: baseline;
     margin-left: -8px;
     text-align: right;
-    }
-
-    /*Lista 123 azul*/
-    .content .bck-ol6 li:before,
-    .cke_contents .bck-ol6 li:before {
-    content: counter(bck-li-counter)".";
     background: none;
-    font-size: 22px;
-    color: #006DAE;
-    position: relative;
-    width: 30px;
-    height: 24px;
-    text-align: center;
-    font-weight: 700;
-    }
-    .content .bck-ol6 li,
-    .cke_contents .bck-ol6 li {
-    font-weight: 700;
     }
 
-    /*Lista abc morada*/
-    .content .bck-ol7 li:before,
-    .cke_contents .bck-ol7 li:before {
+    /*LISTA abc azul*/
+    .content .bck-ol3 li:before,
+    .cke_contents .bck-ol3 li:before {
     content: counter(bck-li-counter, lower-alpha)".";
-    color: #652584;
+    color: #126AAC;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -596,41 +572,8 @@
     vertical-align: baseline;
     margin-left: -8px;
     text-align: right;
-    }
-
-    /*Lista 123 azul claro*/
-    .content .bck-ol8 li:before,
-    .cke_contents .bck-ol8 li:before {
-    content: counter(bck-li-counter)".";
     background: none;
-    font-size: 22px;
-    color: #00ADEE;
-    position: relative;
-    width: 30px;
-    height: 24px;
-    text-align: center;
-    font-weight: 700;
-    }
-    .content .bck-ol8 li,
-    .cke_contents .bck-ol8 li {
-    font-weight: 700;
-    }
-
-    /*Lista abc verde*/
-    .content .bck-ol9 li:before,
-    .cke_contents .bck-ol9 li:before {
-    content: counter(bck-li-counter, lower-alpha)".";
-    color: #00A651;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    border: 0;
-    font-size: 20px;
-    line-height: 1;
-    vertical-align: baseline;
-    margin-left: -8px;
-    text-align: right;
-    }
+    }    
 
     /*LISTA DESORDENADA POR DEFECTO*/
     .texto_curso ul li:before, .workspace ul li ul li:before, .cke_contents ul li:before {
