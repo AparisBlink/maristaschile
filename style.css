@@ -422,8 +422,8 @@
     font-weight: 700;
     text-shadow: none;
     border-bottom: 2px solid;
-    border-color:#ac183c ;
-    color: #ac183c;
+    border-color:#bc4d59 ;
+    color: #bc4d59;
     font-size: 24px;
     margin-bottom: 5px;
     }
@@ -481,7 +481,7 @@
     .content .bck-ol1 li:before,
     .cke_contents .bck-ol1 li:before {
     content: counter(bck-li-counter)".";
-    width: 30px;
+    width: 35px;
     height: 24px;
     color: #BC4D59;
     text-align: center;
@@ -525,7 +525,7 @@
     .content .bck-ol2 li:before,
     .cke_contents .bck-ol2 li:before {
     content: counter(bck-li-counter)".";
-    width: 30px;
+    width: 35px;
     height: 24px;
     color: #126AAC;
     text-align: center;
@@ -675,48 +675,6 @@
     border: 0;
     }
 
-    /* Caja 3 */
-    .bck-box.bck-box3 {
-    position: relative;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-            box-shadow: none;
-    -webkit-transform: none;
-    -moz-transform: none;
-        -ms-transform: none;
-        -o-transform: none;
-            transform: none;
-            padding: 6px;
-    }
-
-    .bck-box.bck-box3 .bck-title {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
-    display: inline-block;
-    border: 1px solid;
-    border-color: #BC4D59;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    padding: 0 6px;
-    background: #BC4D59;
-    color: white;
-    font-weight: 700;
-    }
-
-    .bck-box.bck-box3 .bck-title p {
-    display: inline;
-    }
-
-    .bck-box.bck-box3 .bck-content {
-    margin-top: 15px;
-    }
 
     /*ÉNFASIS*/
     .bck-enfasis-1 {
@@ -901,7 +859,7 @@
     -webkit-box-shadow: 3px 3px 4px #00000036;
     -moz-box-shadow: 3px 3px 4px #00000036;
     box-shadow: 3px 3px 4px #00000036;
-    border: 3px solid #BC4D59;
+    border: 2px solid #BC4D59;
     -moz-transition: padding 0.3s ease-in-out;
     -webkit-transition: padding 0.3s ease-in-out;
     transition: padding 0.3s ease-in-out;
