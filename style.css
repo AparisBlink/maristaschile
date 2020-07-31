@@ -125,16 +125,17 @@
     .content_type_clase_maristaschile #actividad .content .header {
         border: none;
         margin-bottom: 0;
+        position: relative;
     }
     .content_type_clase_maristaschile #actividad .content .header:after {
         content: "";
-        padding: 71px;
+        padding: 30px 82px;
         background-image: url(images/logo_maristas_chile.png);
         position: absolute;
-        top: 24px;
+        bottom: 0;
         background-size: contain;
         background-repeat: no-repeat;
-        right: 38px;
+        right: 19px;
     }
 
     .content_type_clase_maristaschile #actividad .content .header .title {
