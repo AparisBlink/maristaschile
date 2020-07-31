@@ -56,24 +56,18 @@
     }
     .header.default {
     background: #BC4D59 !important;
-    background: -moz-linear-gradient(left, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%) !important;
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(150,15,38,1)), color-stop(100%, rgba(186,30,74,1))) !important;
-    background: -webkit-linear-gradient(left, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%) !important;
-    background: -o-linear-gradient(left, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%) !important;
-    background: -ms-linear-gradient(left, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%) !important;
-    background: linear-gradient(to right, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%) !important;
     }
     .header.default:after {
-    content: "";
-    background: url(images/logo_maristas_chile.png);
-    padding: 64px;
-    background-size: contain;
-    background-repeat: repeat-x;
-    z-index: 30;
-    background-position: center;
-    position: absolute;
-    right: 25px;
-    bottom: -15px;
+        content: "";
+        background: url(images/logo_maristas_chile.png);
+        padding: 78px;
+        background-size: contain;
+        background-repeat: repeat-x;
+        z-index: 30;
+        background-position: center;
+        position: absolute;
+        right: 25px;
+        bottom: -40px;
     }
 
     .unit-content .btn-primary, .btn-primary.disabled,
@@ -135,22 +129,19 @@
         bottom: 0;
         background-size: contain;
         background-repeat: no-repeat;
-        right: 19px;
+        right: 34px;
     }
 
     .content_type_clase_maristaschile #actividad .content .header .title {
         padding: 45px 98px;
-        -webkit-box-shadow: 0px 5px 6px #00000030;
-        -moz-box-shadow: 0px 5px 6px #00000030;
-        box-shadow: 0px 5px 6px #00000030;
+        -webkit-box-shadow: 0px 19px #ab183b3d;
+        -moz-box-shadow: 0px 19px #ab183b3d;
+        box-shadow: 0px 19px #ab183b3d;
         background: #BC4D59;
-        background: -moz-linear-gradient(left, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%);
-        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(150,15,38,1)), color-stop(100%, rgba(186,30,74,1)));
-        background: -webkit-linear-gradient(left, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%);
-        background: -o-linear-gradient(left, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%);
-        background: -ms-linear-gradient(left, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%);
-        background: linear-gradient(to right, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%);
         margin: -40px 0 40px 0;
+        -webkit-border-radius: 0% 100% 6% 94% / 71% 0% 100% 29%;
+        -moz-border-radius: 0% 100% 6% 94% / 71% 0% 100% 29%;
+        border-radius: 0% 100% 6% 94% / 71% 0% 100% 29%;
     }
 
     .content_type_clase_maristaschile #actividad .content .slide-concatenate .header .title {
@@ -1067,6 +1058,16 @@
     
 /**/
 /*----- UNITTAG -----------------*/
+.content_type_clase_maristaschile.unittag_maristaschile_azul #actividad .content .unittag_maristaschile_azul .header .title {
+    -webkit-box-shadow: 0px 19px #126aac45;
+    -moz-box-shadow: 0px 19px #126aac45;
+    box-shadow: 0px 19px #126aac45;
+    background: #126AAC;
+}   
+.unittag_maristaschile_azul .header.default {
+    background: #126AAC !important;
+    }
+    
     /*TITULO 1*/
     .unittag_maristaschile_azul .bck-title1 {
         color: #126AAC;
