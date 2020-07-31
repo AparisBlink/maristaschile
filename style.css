@@ -1064,507 +1064,76 @@
     }
     
 /**/
-/*--------------------------------*/
-/* ----------- SECCIONES ------------*/
-/*--------------------------------*/
-/*Cambio de color en naturales*/
-    /*HEADER*/
-    .coursetag_actualidadnaturales.content_type_clase_maristaschile #actividad .content .header .title {
-        background: rgba(118,156,62,1);
-        background: -moz-linear-gradient(left, rgba(118,156,62,1) 0%, rgba(141,186,74,1) 100%);
-        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(118,156,62,1)), color-stop(100%, rgba(141,186,74,1)));
-        background: -webkit-linear-gradient(left, rgba(118,156,62,1) 0%, rgba(141,186,74,1) 100%);
-        background: -o-linear-gradient(left, rgba(118,156,62,1) 0%, rgba(141,186,74,1) 100%);
-        background: -ms-linear-gradient(left, rgba(118,156,62,1) 0%, rgba(141,186,74,1) 100%);
-        background: linear-gradient(to right, rgba(118,156,62,1) 0%, rgba(141,186,74,1) 100%);
+/*----- UNITTAG -----------------*/
+    /*TITULO 1*/
+    .unittag_maristaschile_azul .bck-title1 {
+        color: #126AAC;
     }
-    .coursetag_actualidadnaturales.content_type_clase_maristaschile .slide_main input,
-    .coursetag_actualidadnaturales.content_type_clase_maristaschile .slide_main .img-input-container {
-        border: 3px solid #769C3E;
-    }
-    .coursetag_actualidadnaturales.content_type_clase_maristaschile .slide_main input:focus,
-    .coursetag_actualidadnaturales.content_type_clase_maristaschile .slide_main .img-input-container:focus {
-        border-color: #999999;
-        border-bottom: 5px solid #999999;
-    }
+    /*TÍTULO 2*/
+    .unittag_maristaschile_azul .bck-title2 {
+        border-color:#126AAC ;
+        color: #126AAC;
+        }    
 
-    .coursetag_actualidadnaturales #indice .units ul li.active:not(.disabled),
-    body:not(.isTablet).coursetag_actualidadnaturales #indice .units ul li:hover:not(.disabled),
-    .coursetag_actualidadnaturales #indice .units ul li:focus:not(.disabled) {
-    background: #769C3E;
-    }
-    .coursetag_actualidadnaturales .header.default {
-        background: rgba(118,156,62,1) !important;
-        background: -moz-linear-gradient(left, rgba(118,156,62,1) 0%, rgba(141,186,74,1) 100%) !important;
-        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(118,156,62,1)), color-stop(100%, rgba(141,186,74,1))) !important;
-        background: -webkit-linear-gradient(left, rgba(118,156,62,1) 0%, rgba(141,186,74,1) 100%) !important;
-        background: -o-linear-gradient(left, rgba(118,156,62,1) 0%, rgba(141,186,74,1) 100%) !important;
-        background: -ms-linear-gradient(left, rgba(118,156,62,1) 0%, rgba(141,186,74,1) 100%) !important;
-        background: linear-gradient(to right, rgba(118,156,62,1) 0%, rgba(141,186,74,1) 100%) !important;
-    }
-    /*Cambios de color en estilos*/
-    .coursetag_actualidadnaturales .bck-title2 {
-        color: #769C3E;
-        border-color:#769C3E;
-    }
-    .coursetag_actualidadnaturales .bck-box {
-        border-color:#769C3E;
-    }
+    /*Enfasis 3 - Número circular*/
+    .unittag_maristaschile_azul .bck-enfasis-3 {
+        background: #126AAC;
+    }    
 
-    .coursetag_actualidadnaturales .bck-box1 .bck-title {
-        background:#769C3E;
-    }
+     /*Caja 1*/
+     .unittag_maristaschile_azul .bck-box.bck-box1 {
+        border-left: 5px dotted #126AAC;
+    }   
+    .unittag_maristaschile_azul .bck-box.bck-box1:before {
 
-    .coursetag_actualidadnaturales .bck-box.bck-box2 {
-        border-color:#769C3E;
-        background: #769C3E1c;
-    }
-    .coursetag_actualidadnaturales .bck-box2 .bck-title {
-        color: #769C3E;
-    }
-    .coursetag_actualidadnaturales .bck-box.bck-box3 .bck-title {
-        background:#769C3E;
-        border-color: #769C3E;
-    }
-
-    .coursetag_actualidadnaturales .texto_curso .bck-ul1 li:before,
-    .coursetag_actualidadnaturales .workspace .bck-ul1 li:before,
-    .coursetag_actualidadnaturales .cke_contents .bck-ul1 li:before {
-        background-color: #769C3E;
-    }
-
-    .coursetag_actualidadnaturales .bck-dropdown-button {
-        background: #769C3E;
-    }
-    .coursetag_actualidadnaturales .bck-dropdown-icon>.fa {
-        color: #769C3E;
-    }
-    .coursetag_actualidadnaturales .bck-dropdown-content {
-        border-color: #769C3E;
-    }
-
-
-    body:not(.edit).coursetag_actualidadnaturales .front .bck-flipbox-title,
-    body:not(.edit).coursetag_actualidadnaturales .front .bck-flipbox-section {
-        color: #769C3E;
-    }
-    body:not(.edit).coursetag_actualidadnaturales .bck-flipbox-face.front,
-    body:not(.edit).coursetag_actualidadnaturales .bck-flipbox-face.back {
-        border-color: #769C3E;
-    }
-    body:not(.edit).coursetag_actualidadnaturales .bck-flipbox-face.back {
-        background-color: #769C3E;
-    }
-
-
-    .coursetag_actualidadnaturales #actividad .info-button {
-        background: #769C3E;
-    }
-    .coursetag_actualidadnaturales .info-popover .popover-title,
-    .coursetag_actualidadnaturales .popover-template .popover-title {
-        background: #769C3E;
+        background: #126AAC;
+    }   
+    .unittag_maristaschile_azul .bck-box.bck-box1:after {
+        background: #126AAC;
     }  
-    .coursetag_actualidadnaturales .info-template.shown {
-        border-color: #769C3E;
-    }
-    .coursetag_actualidadnaturales .info-template .info-title {
-        color: #769C3E;
-    }
-    .coursetag_actualidadnaturales .info-template .info-icon {
-        background: #769C3E;
-    }
 
-    /*Celda 1*/
-    body.coursetag_actualidadnaturales .content table:not(.rf-tablegrid) .bck-td-1 {
-         background: #769C3E;
-         color: white;
+    /* Caja 2 */
+    .unittag_maristaschile_azul .bck-box2 .bck-title {
+        color: #126AAC;
     }
+    .unittag_maristaschile_azul .bck-box.bck-box2 {
+        background: #EBEEF6;
+    }   
 
-    .coursetag_actualidadnaturales #actividad .player.audio,
-    .coursetag_actualidadnaturales #actividad .player.video,
-    .coursetag_actualidadnaturales #help-panel-content .player,
-    .coursetag_actualidadnaturales #remote-alert-modal-rich .player {
-       background-color: #769C3E;
-   }
-
-   .coursetag_actualidadnaturales #actividad .player:hover,
-   .coursetag_actualidadnaturales #help-panel-content .player:hover,
-   .coursetag_actualidadnaturales #remote-alert-modal-rich .player:hover {
-       background-color: #aad46d;
-   }
-
-/******/
-
-/*Cambio de color sociales*/
-    .coursetag_actualidadsociales.content_type_clase_maristaschile #actividad .content .header .title {
-        background: rgba(221,154,54,1);
-        background: -moz-linear-gradient(left, rgba(221,154,54,1) 0%, rgba(247,183,94,1) 100%);
-        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(221,154,54,1)), color-stop(100%, rgba(247,183,94,1)));
-        background: -webkit-linear-gradient(left, rgba(221,154,54,1) 0%, rgba(247,183,94,1) 100%);
-        background: -o-linear-gradient(left, rgba(221,154,54,1) 0%, rgba(247,183,94,1) 100%);
-        background: -ms-linear-gradient(left, rgba(221,154,54,1) 0%, rgba(247,183,94,1) 100%);
-        background: linear-gradient(to right, rgba(221,154,54,1) 0%, rgba(247,183,94,1) 100%);
-    }
-    .coursetag_actualidadsociales.content_type_clase_maristaschile .slide_main input,
-    .coursetag_actualidadsociales.content_type_clase_maristaschile .slide_main .img-input-container {
-        border: 3px solid #DD9A36;
-    }
-    .coursetag_actualidadsociales.content_type_clase_maristaschile .slide_main input:focus,
-    .coursetag_actualidadsociales.content_type_clase_maristaschile .slide_main .img-input-container:focus {
-        border-color: #999999;
-        border-bottom: 5px solid #999999;
-    }
-
-    .coursetag_actualidadsociales #indice .units ul li.active:not(.disabled),
-    body:not(.isTablet).coursetag_actualidadsociales #indice .units ul li:hover:not(.disabled),
-    .coursetag_actualidadsociales #indice .units ul li:focus:not(.disabled) {
-    background: #DD9A36;
-    }
-    .coursetag_actualidadsociales .header.default {
-        background: rgba(221,154,54,1) !important;
-        background: -moz-linear-gradient(left, rgba(221,154,54,1) 0%, rgba(247,183,94,1) 100%) !important;
-        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(221,154,54,1)), color-stop(100%, rgba(247,183,94,1))) !important;
-        background: -webkit-linear-gradient(left, rgba(221,154,54,1) 0%, rgba(247,183,94,1) 100%) !important;
-        background: -o-linear-gradient(left, rgba(221,154,54,1) 0%, rgba(247,183,94,1) 100%) !important;
-        background: -ms-linear-gradient(left, rgba(221,154,54,1) 0%, rgba(247,183,94,1) 100%) !important;
-        background: linear-gradient(to right, rgba(221,154,54,1) 0%, rgba(247,183,94,1) 100%) !important;
-    }
-     /*Cambios de color en estilos*/
-     .coursetag_actualidadsociales .bck-title2 {
-        color: #DD9A36;
-        border-color:#DD9A36;
-    }
-    .coursetag_actualidadsociales .bck-box {
-        border-color:#DD9A36;
-    }
-
-    .coursetag_actualidadsociales .bck-box1 .bck-title {
-        background:#DD9A36;
-    }
-
-    .coursetag_actualidadsociales .bck-box.bck-box2 {
-        border-color:#DD9A36;
-        background: #DD9A361c;
-    }
-    .coursetag_actualidadsociales .bck-box2 .bck-title {
-        color: #DD9A36;
-    }
-    .coursetag_actualidadsociales .bck-box.bck-box3 .bck-title {
-        background:#DD9A36;
-        border-color: #DD9A36;
-    }
-
-    .coursetag_actualidadsociales .texto_curso .bck-ul1 li:before,
-    .coursetag_actualidadsociales .workspace .bck-ul1 li:before,
-    .coursetag_actualidadsociales .cke_contents .bck-ul1 li:before {
-        background-color: #DD9A36;
-    }
-
-    .coursetag_actualidadsociales .bck-dropdown-button {
-        background: #DD9A36;
-    }
-    .coursetag_actualidadsociales .bck-dropdown-icon>.fa {
-        color: #DD9A36;
-    }
-    .coursetag_actualidadsociales .bck-dropdown-content {
-        border-color: #DD9A36;
-    }
-
-
-    body:not(.edit).coursetag_actualidadsociales .front .bck-flipbox-title,
-    body:not(.edit).coursetag_actualidadsociales .front .bck-flipbox-section {
-        color: #DD9A36;
-    }
-    body:not(.edit).coursetag_actualidadsociales .bck-flipbox-face.front,
-    body:not(.edit).coursetag_actualidadsociales .bck-flipbox-face.back {
-        border-color: #DD9A36;
-    }
-    body:not(.edit).coursetag_actualidadsociales .bck-flipbox-face.back {
-        background-color: #DD9A36;
-    }
-
-
-    .coursetag_actualidadsociales #actividad .info-button {
-        background: #DD9A36;
-    }
-    .coursetag_actualidadsociales .info-popover .popover-title,
-    .coursetag_actualidadsociales .popover-template .popover-title {
-        background: #DD9A36;
+    /*Lsita por defecto*/
+        /*Lista 123 roja*/
+    
+        .content .unittag_maristaschile_azul ol li:before,
+        .cke_contents .unittag_maristaschile_azul ol li:before {
+        color: #126AAC;
+        }
+    
+    /*DESPLEGABLE*/
+    .unittag_maristaschile_azul .bck-dropdown-button {
+        background: #126AAC;
     }  
-    .coursetag_actualidadsociales .info-template.shown {
-        border-color: #DD9A36;
-    }
-    .coursetag_actualidadsociales .info-template .info-title {
-        color: #DD9A36;
-    }
-    .coursetag_actualidadsociales .info-template .info-icon {
-        background: #DD9A36;
-    }
-
-    /*Celda 1*/
-    body.coursetag_actualidadsociales .content table:not(.rf-tablegrid) .bck-td-1 {
-        background: #DD9A36;
-        color: white;
-   }    
-
-    .coursetag_actualidadsociales #actividad .player.audio,
-    .coursetag_actualidadsociales #actividad .player.video,
-    .coursetag_actualidadsociales #help-panel-content .player,
-    .coursetag_actualidadsociales #remote-alert-modal-rich .player {
-       background-color: #DD9A36;
-   }
-   .coursetag_actualidadsociales #actividad .player:hover,
-   .coursetag_actualidadsociales #help-panel-content .player:hover,
-   .coursetag_actualidadsociales #remote-alert-modal-rich .player:hover {
-       background-color: #f7ac3d;
-   }
-/****/
-
-/*Cambio de color matemáticas*/
-    .coursetag_actualidadmatematica.content_type_clase_maristaschile #actividad .content .header .title {
-        background: rgba(101,37,132,1);
-        background: -moz-linear-gradient(left, rgba(101,37,132,1) 0%, rgba(146,92,173,1) 100%);
-        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(101,37,132,1)), color-stop(100%, rgba(146,92,173,1)));
-        background: -webkit-linear-gradient(left, rgba(101,37,132,1) 0%, rgba(146,92,173,1) 100%);
-        background: -o-linear-gradient(left, rgba(101,37,132,1) 0%, rgba(146,92,173,1) 100%);
-        background: -ms-linear-gradient(left, rgba(101,37,132,1) 0%, rgba(146,92,173,1) 100%);
-        background: linear-gradient(to right, rgba(101,37,132,1) 0%, rgba(146,92,173,1) 100%);
-    }
-    .coursetag_actualidadmatematica.content_type_clase_maristaschile .slide_main input,
-    .coursetag_actualidadmatematica.content_type_clase_maristaschile .slide_main .img-input-container {
-        border: 3px solid #652584;
-    }
-    .coursetag_actualidadmatematica.content_type_clase_maristaschile .slide_main input:focus,
-    .coursetag_actualidadmatematica.content_type_clase_maristaschile .slide_main .img-input-container:focus {
-        border-color: #999999;
-        border-bottom: 5px solid #999999;
-    }
-
-    .coursetag_actualidadmatematica #indice .units ul li.active:not(.disabled),
-    body:not(.isTablet).coursetag_actualidadmatematica #indice .units ul li:hover:not(.disabled),
-    .coursetag_actualidadmatematica #indice .units ul li:focus:not(.disabled) {
-    background: #652584;
-    }
-    .coursetag_actualidadmatematica .header.default {
-        background: rgba(101,37,132,1) !important;
-        background: -moz-linear-gradient(left, rgba(101,37,132,1) 0%, rgba(146,92,173,1) 100%) !important;
-        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(101,37,132,1)), color-stop(100%, rgba(146,92,173,1))) !important;
-        background: -webkit-linear-gradient(left, rgba(101,37,132,1) 0%, rgba(146,92,173,1) 100%) !important;
-        background: -o-linear-gradient(left, rgba(101,37,132,1) 0%, rgba(146,92,173,1) 100%) !important;
-        background: -ms-linear-gradient(left, rgba(101,37,132,1) 0%, rgba(146,92,173,1) 100%) !important;
-        background: linear-gradient(to right, rgba(101,37,132,1) 0%, rgba(146,92,173,1) 100%) !important;
-    }
- /*Cambios de color en estilos*/
-    .coursetag_actualidadmatematica .bck-title2 {
-        color: #652584;
-        border-color:#652584;
-    }
-    .coursetag_actualidadmatematica .bck-box {
-        border-color:#652584;
-    }
-
-    .coursetag_actualidadmatematica .bck-box1 .bck-title {
-        background:#652584;
-    }
-
-    .coursetag_actualidadmatematica .bck-box.bck-box2 {
-        border-color:#652584;
-        background: #6525841c;
-    }
-    .coursetag_actualidadmatematica .bck-box2 .bck-title {
-        color: #652584;
-    }
-    .coursetag_actualidadmatematica .bck-box.bck-box3 .bck-title {
-        background:#652584;
-        border-color: #652584;
-    }
-
-    .coursetag_actualidadmatematica .texto_curso .bck-ul1 li:before,
-    .coursetag_actualidadmatematica .workspace .bck-ul1 li:before,
-    .coursetag_actualidadmatematica .cke_contents .bck-ul1 li:before {
-        background-color: #652584;
-    }
-
-    .coursetag_actualidadmatematica .bck-dropdown-button {
-        background: #652584;
-    }
-    .coursetag_actualidadmatematica .bck-dropdown-icon>.fa {
-        color: #652584;
-    }
-    .coursetag_actualidadmatematica .bck-dropdown-content {
-        border-color: #652584;
-    }
-
-
-    body:not(.edit).coursetag_actualidadmatematica .front .bck-flipbox-title,
-    body:not(.edit).coursetag_actualidadmatematica .front .bck-flipbox-section {
-        color: #652584;
-    }
-    body:not(.edit).coursetag_actualidadmatematica .bck-flipbox-face.front,
-    body:not(.edit).coursetag_actualidadmatematica .bck-flipbox-face.back {
-        border-color: #652584;
-    }
-    body:not(.edit).coursetag_actualidadmatematica .bck-flipbox-face.back {
-        background-color: #652584;
-    }
-
-    .coursetag_actualidadmatematica #actividad .info-button {
-        background: #652584;
-    }
-    .coursetag_actualidadmatematica .info-popover .popover-title,
-    .coursetag_actualidadmatematica .popover-template .popover-title {
-        background: #652584;
+    .unittag_maristaschile_azul .bck-dropdown-icon>.fa {
+        color: #126AAC;
+    }   
+    .unittag_maristaschile_azul .bck-dropdown-content {
+        border-color: #126AAC;
     }  
-    .coursetag_actualidadmatematica .info-template.shown {
-        border-color: #652584;
-    }
-    .coursetag_actualidadmatematica .info-template .info-title {
-        color: #652584;
-    }
-    .coursetag_actualidadmatematica .info-template .info-icon {
-        background: #652584;
-    }
-    /*Celda 1*/
-    body.coursetag_actualidadmatematica .content table:not(.rf-tablegrid) .bck-td-1 {
-        background: #652584;
-        color: white;
-   }    
-    .coursetag_actualidadmatematica #actividad .player.audio,
-    .coursetag_actualidadmatematica #actividad .player.video,
-    .coursetag_actualidadmatematica #help-panel-content .player,
-    .coursetag_actualidadmatematica #remote-alert-modal-rich .player {
-       background-color: #652584;
-   }
-   .coursetag_actualidadmatematica #actividad .player:hover,
-   .coursetag_actualidadmatematica #help-panel-content .player:hover,
-   .coursetag_actualidadmatematica #remote-alert-modal-rich .player:hover {
-       background-color: #9d4ac5;
-   }
-/*****/
+    
+    /* Icons */
+    .unittag_maristaschile_azul #actividad .player.audio,
+    .unittag_maristaschile_azul #actividad .player.video,
+    .unittag_maristaschile_azul #help-panel-content .player,
+    .unittag_maristaschile_azul #remote-alert-modal-rich .player {
 
-/*Cambio de color ingles*/
-    .coursetag_actualidadingles.content_type_clase_maristaschile #actividad .content .header .title {
-    background: rgba(0,93,164,1);
-    background: -moz-linear-gradient(left, rgba(0,93,164,1) 0%, rgba(40,133,199,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,93,164,1)), color-stop(100%, rgba(40,133,199,1)));
-    background: -webkit-linear-gradient(left, rgba(0,93,164,1) 0%, rgba(40,133,199,1) 100%);
-    background: -o-linear-gradient(left, rgba(0,93,164,1) 0%, rgba(40,133,199,1) 100%);
-    background: -ms-linear-gradient(left, rgba(0,93,164,1) 0%, rgba(40,133,199,1) 100%);
-    background: linear-gradient(to right, rgba(0,93,164,1) 0%, rgba(40,133,199,1) 100%);
+        background-color: #126AAC;
     }
-    .coursetag_actualidadingles.content_type_clase_maristaschile .slide_main input,
-    .coursetag_actualidadingles.content_type_clase_maristaschile .slide_main .img-input-container {
-    border: 3px solid #005DA4;
-    }
-    .coursetag_actualidadingles.content_type_clase_maristaschile .slide_main input:focus,
-    .coursetag_actualidadingles.content_type_clase_maristaschile .slide_main .img-input-container:focus {
-    border-color: #999999;
-    border-bottom: 5px solid #999999;
-    }
-
-    .coursetag_actualidadingles #indice .units ul li.active:not(.disabled),
-    body:not(.isTablet).coursetag_actualidadingles #indice .units ul li:hover:not(.disabled),
-    .coursetag_actualidadingles #indice .units ul li:focus:not(.disabled) {
-    background: #005DA4;
-    }
-    .coursetag_actualidadingles .header.default {
-    background: rgba(0,93,164,1) !important;
-    background: -moz-linear-gradient(left, rgba(0,93,164,1) 0%, rgba(40,133,199,1) 100%) !important;
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,93,164,1)), color-stop(100%, rgba(40,133,199,1))) !important;
-    background: -webkit-linear-gradient(left, rgba(0,93,164,1) 0%, rgba(40,133,199,1) 100%) !important;
-    background: -o-linear-gradient(left, rgba(0,93,164,1) 0%, rgba(40,133,199,1) 100%) !important;
-    background: -ms-linear-gradient(left, rgba(0,93,164,1) 0%, rgba(40,133,199,1) 100%) !important;
-    background: linear-gradient(to right, rgba(0,93,164,1) 0%, rgba(40,133,199,1) 100%) !important;
-    }
-     /*Cambios de color en estilos*/
-     .coursetag_actualidadingles .bck-title2 {
-        color: #005DA4;
-        border-color:#005DA4;
-    }
-    .coursetag_actualidadingles .bck-box {
-        border-color:#005DA4;
-    }
-
-    .coursetag_actualidadingles .bck-box1 .bck-title {
-        background:#005DA4;
-    }
-
-    .coursetag_actualidadingles .bck-box.bck-box2 {
-        border-color:#005DA4;
-        background: #005DA41c;
-    }
-    .coursetag_actualidadingles .bck-box2 .bck-title {
-        color: #005DA4;
-    }
-    .coursetag_actualidadingles .bck-box.bck-box3 .bck-title {
-        background:#005DA4;
-        border-color: #005DA4;
-    }
-
-    .coursetag_actualidadingles .texto_curso .bck-ul1 li:before,
-    .coursetag_actualidadingles .workspace .bck-ul1 li:before,
-    .coursetag_actualidadingles .cke_contents .bck-ul1 li:before {
-        background-color: #005DA4;
-    }
-
-    .coursetag_actualidadingles .bck-dropdown-button {
-        background: #005DA4;
-    }
-    .coursetag_actualidadingles .bck-dropdown-icon>.fa {
-        color: #005DA4;
-    }
-    .coursetag_actualidadingles .bck-dropdown-content {
-        border-color: #005DA4;
-    }
-
-
-    body:not(.edit).coursetag_actualidadingles .front .bck-flipbox-title,
-    body:not(.edit).coursetag_actualidadingles .front .bck-flipbox-section {
-        color: #005DA4;
-    }
-    body:not(.edit).coursetag_actualidadingles .bck-flipbox-face.front,
-    body:not(.edit).coursetag_actualidadingles .bck-flipbox-face.back {
-        border-color: #005DA4;
-    }
-    body:not(.edit).coursetag_actualidadingles .bck-flipbox-face.back {
-        background-color: #005DA4;
-    }
-
-
-    .coursetag_actualidadingles #actividad .info-button {
-        background: #005DA4;
-    }
-    .coursetag_actualidadingles .info-popover .popover-title,
-    .coursetag_actualidadingles .popover-template .popover-title {
-        background: #005DA4;
-    }  
-    .coursetag_actualidadingles .info-template.shown {
-        border-color: #005DA4;
-    }
-    .coursetag_actualidadingles .info-template .info-title {
-        color: #005DA4;
-    }
-    .coursetag_actualidadingles .info-template .info-icon {
-        background: #005DA4;
-    }
-     /*Celda 1*/
-     body.coursetag_actualidadingles .content table:not(.rf-tablegrid) .bck-td-1 {
-        background: #005DA4;
-        color: white;
-   }     
-
-    .coursetag_actualidadingles #actividad .player.audio,
-    .coursetag_actualidadingles #actividad .player.video,
-    .coursetag_actualidadingles #help-panel-content .player,
-    .coursetag_actualidadingles #remote-alert-modal-rich .player {
-       background-color: #005DA4;
-   }
-   .coursetag_actualidadingles #actividad .player:hover,
-   .coursetag_actualidadingles #help-panel-content .player:hover,
-   .coursetag_actualidadingles #remote-alert-modal-rich .player:hover {
-       background-color: #3f93d4;
-   }
-
+    
+        /* Forms */
+    .content_type_clase_maristaschile.unittag_maristaschile_azul .slide_main input,
+    .content_type_clase_maristaschile.unittag_maristaschile_azul .slide_main .img-input-container {
+        background: #f6f6f6;
+        border: 3px solid #126AAC;
+        }
 /**/
 
 /*QUERIES*/
