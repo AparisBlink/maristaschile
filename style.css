@@ -48,14 +48,14 @@
     #indice .units ul li.active:not(.disabled),
     body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     #indice .units ul li:focus:not(.disabled) {
-    background: #960f26;
+    background: #BC4D59;
     }
     body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
     color: white;
     }
     .header.default {
-    background: #960f26 !important;
+    background: #BC4D59 !important;
     background: -moz-linear-gradient(left, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%) !important;
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(150,15,38,1)), color-stop(100%, rgba(186,30,74,1))) !important;
     background: -webkit-linear-gradient(left, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%) !important;
@@ -143,7 +143,7 @@
         -webkit-box-shadow: 0px 5px 6px #00000030;
         -moz-box-shadow: 0px 5px 6px #00000030;
         box-shadow: 0px 5px 6px #00000030;
-        background: #960f26;
+        background: #BC4D59;
         background: -moz-linear-gradient(left, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%);
         background: -webkit-gradient(left top, right top, color-stop(0%, rgba(150,15,38,1)), color-stop(100%, rgba(186,30,74,1)));
         background: -webkit-linear-gradient(left, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%);
@@ -412,6 +412,7 @@
     font-size: 30px;
     font-weight: bold;
     color: #bc4d59;
+    background: none;
     }
 
     /*TÍTULO 2*/
@@ -593,7 +594,7 @@
     /*Lista desordenada 1 - Color automatico*/
     .texto_curso .bck-ul1 li:before, .workspace .bck-ul1 li:before, .cke_contents .bck-ul1 li:before {
 
-        background-color: #960F26;
+        background-color: #BC4D59;
     }
 
     /*Lista desordenada 2 - Color blanco*/
@@ -699,12 +700,12 @@
     transform: translate(-50%,-50%);
     display: inline-block;
     border: 1px solid;
-    border-color: #960f26;
+    border-color: #BC4D59;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
     padding: 0 6px;
-    background: #960f26;
+    background: #BC4D59;
     color: white;
     font-weight: 700;
     }
@@ -719,10 +720,10 @@
 
     /*ÉNFASIS*/
     .bck-enfasis-1 {
-    color: #DD503C;
+    color: #BC4D59;
     }
     .bck-enfasis-2 {
-    color: #6F2670;
+    color: #126AAC;
     }
     /*Enfasis 3 - Número circular*/
     .bck-enfasis-3 {
@@ -733,17 +734,12 @@
         border-radius: 100%;
         color: white;
     }
-    .bck-enfasis-4 {
-    color: #00A2E3;
-    }
-    .bck-enfasis-5 {
-    color: #DC176F;
-    }
+
 
     /*DESPLEGABLE*/
     .bck-dropdown-button {
         padding: 10px;
-        background: #960f26;
+        background: #BC4D59;
         color: white;
         border-top-left-radius: 5px;
         -moz-border-radius-topleft: 5px;
@@ -757,7 +753,7 @@
         border-radius: 5px;
         border-color: white;
         background: white;
-        color: #960f26;
+        color: #BC4D59;
     }
     .bck-dropdown-titulo {
         font-weight: 600;
@@ -766,7 +762,7 @@
     .bck-dropdown-content {
         background-color: white;
         border: 2px solid;
-        border-color: #960f26;
+        border-color: #BC4D59;
         -moz-border-radius-topleft: 5px;
         border-bottom-left-radius: 5px;
         -moz-border-radius-topright: 5px;
@@ -776,17 +772,17 @@
     /*FLIPBOX*/
     body:not(.edit) .front .bck-flipbox-title,
     body:not(.edit) .front .bck-flipbox-section {
-        color: #960f26;
+        color: #BC4D59;
     }
     body:not(.edit) .bck-flipbox-face.front,
     body:not(.edit) .bck-flipbox-face.back {
-        border-color: #960f26;
+        border-color: #BC4D59;
         -webkit-box-shadow: 5px 5px 8px #0000002e;
         -moz-box-shadow: 5px 5px 8px #0000002e;
         box-shadow: 5px 5px 8px #0000002e;
     }
     body:not(.edit) .bck-flipbox-face.back {
-        background-color: #960f26;
+        background-color: #BC4D59;
     }
 
     /*POP-UP*/
@@ -795,7 +791,7 @@
         -moz-box-shadow: none;
         box-shadow: none;
         color: white;
-        background: #960f26;
+        background: #BC4D59;
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
         border-radius: 3px;
@@ -803,7 +799,7 @@
     }
     .info-popover .popover-title,
     .popover-template .popover-title {
-        background: #960f26;
+        background: #BC4D59;
         color: white;
     }  
     .info-popover .popover-title:before,
@@ -818,14 +814,14 @@
         background: white;
         border: 3px solid;
         border-right: none;
-        border-color: #960f26;
+        border-color: #BC4D59;
     }
     .info-template .info-title {
-        color: #960f26;
+        color: #BC4D59;
     }
     .info-template .info-icon {
         color: white;
-        background: #960f26;
+        background: #BC4D59;
     }
 
     /*TABLA POR DEFECTO*/
@@ -843,7 +839,7 @@
 
     /*Celda 1*/
     body .content table:not(.rf-tablegrid) .bck-td-1 {
-        background: #960f26;
+        background: #BC4D59;
         color: white;
     }
 
@@ -861,7 +857,7 @@
         height: 28px !important;
         width: 28px;
         display: inline-block;
-        background-color: #960F26;
+        background-color: #BC4D59;
         background-image: url(../../../images/shared/multimedia-icons.png);
         background-repeat: no-repeat;
         -webkit-border-radius: 100%;
@@ -905,7 +901,7 @@
     -webkit-box-shadow: 3px 3px 4px #00000036;
     -moz-box-shadow: 3px 3px 4px #00000036;
     box-shadow: 3px 3px 4px #00000036;
-    border: 3px solid #960F26;
+    border: 3px solid #BC4D59;
     -moz-transition: padding 0.3s ease-in-out;
     -webkit-transition: padding 0.3s ease-in-out;
     transition: padding 0.3s ease-in-out;
